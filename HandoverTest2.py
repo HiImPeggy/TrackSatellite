@@ -9,7 +9,7 @@ INPUT_CSV = os.path.join("output", "visible_satellites_hsinchu.csv")
 MIN_ELEVATION_THRESHOLD_DEG = 20.0
 
 # 遲滯 (Hysteresis)：新的衛星必須比舊的衛星好「這麼多」，才值得換手
-HYSTERESIS_MARGIN_DEG = 50.0
+HYSTERESIS_MARGIN_DEG = 30.0
 
 # --- 2. 核心演算法 ---
 
