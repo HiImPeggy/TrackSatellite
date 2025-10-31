@@ -1,0 +1,705 @@
+--- 開始執行 Handover 模擬 ---
+讀取輸入資料: output/visible_satellites_hsinchu.csv
+換手門檻 (Min Elevation): 20.0°
+換手遲滯 (Hysteresis): 5.0°
+------------------------------
+
+--- 模擬結果：Handover 日誌 ---
+
+[Time]: 2025-10-31 10:54:29
+  Event: 初始連線 (Initial Acquisition)
+  From:  None
+  To:    STARLINK-30841
+  Reason: 找到第一顆合格衛星 (仰角 55.58°)
+
+[Time]: 2025-10-31 10:55:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30841
+  To:    STARLINK-30354
+  Reason: 新衛星仰角 49.95° > (原衛星 41.51° + 5.0°)
+
+[Time]: 2025-10-31 10:57:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30354
+  To:    STARLINK-31917
+  Reason: 新衛星仰角 78.19° > (原衛星 33.44° + 5.0°)
+
+[Time]: 2025-10-31 10:58:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31917
+  To:    STARLINK-5052
+  Reason: 新衛星仰角 83.94° > (原衛星 51.90° + 5.0°)
+
+[Time]: 2025-10-31 10:59:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5052
+  To:    STARLINK-33914
+  Reason: 新衛星仰角 73.48° > (原衛星 48.17° + 5.0°)
+
+[Time]: 2025-10-31 11:00:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33914
+  To:    STARLINK-30580
+  Reason: 新衛星仰角 71.74° > (原衛星 42.75° + 5.0°)
+
+[Time]: 2025-10-31 11:01:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30580
+  To:    STARLINK-35469
+  Reason: 新衛星仰角 82.34° > (原衛星 38.53° + 5.0°)
+
+[Time]: 2025-10-31 11:02:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-35469
+  To:    STARLINK-5043
+  Reason: 新衛星仰角 82.52° > (原衛星 41.51° + 5.0°)
+
+[Time]: 2025-10-31 11:03:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5043
+  To:    STARLINK-6159
+  Reason: 新衛星仰角 60.91° > (原衛星 54.49° + 5.0°)
+
+[Time]: 2025-10-31 11:04:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6159
+  To:    STARLINK-4159
+  Reason: 新衛星仰角 72.17° > (原衛星 42.95° + 5.0°)
+
+[Time]: 2025-10-31 11:06:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-4159
+  To:    STARLINK-30380
+  Reason: 新衛星仰角 62.22° > (原衛星 34.44° + 5.0°)
+
+[Time]: 2025-10-31 11:07:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30380
+  To:    STARLINK-31497
+  Reason: 新衛星仰角 75.56° > (原衛星 39.33° + 5.0°)
+
+[Time]: 2025-10-31 11:08:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31497
+  To:    STARLINK-1019
+  Reason: 新衛星仰角 71.94° > (原衛星 44.22° + 5.0°)
+
+[Time]: 2025-10-31 11:09:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1019
+  To:    STARLINK-30592
+  Reason: 新衛星仰角 75.62° > (原衛星 40.26° + 5.0°)
+
+[Time]: 2025-10-31 11:10:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30592
+  To:    STARLINK-30376
+  Reason: 新衛星仰角 73.08° > (原衛星 40.11° + 5.0°)
+
+[Time]: 2025-10-31 11:11:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30376
+  To:    STARLINK-31988
+  Reason: 新衛星仰角 72.54° > (原衛星 51.78° + 5.0°)
+
+[Time]: 2025-10-31 11:12:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31988
+  To:    STARLINK-6314
+  Reason: 新衛星仰角 75.75° > (原衛星 57.73° + 5.0°)
+
+[Time]: 2025-10-31 11:13:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6314
+  To:    STARLINK-34249
+  Reason: 新衛星仰角 77.96° > (原衛星 49.68° + 5.0°)
+
+[Time]: 2025-10-31 11:14:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34249
+  To:    STARLINK-1012
+  Reason: 新衛星仰角 78.86° > (原衛星 50.96° + 5.0°)
+
+[Time]: 2025-10-31 11:15:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1012
+  To:    STARLINK-31346
+  Reason: 新衛星仰角 74.45° > (原衛星 48.95° + 5.0°)
+
+[Time]: 2025-10-31 11:16:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31346
+  To:    STARLINK-3800
+  Reason: 新衛星仰角 82.87° > (原衛星 38.40° + 5.0°)
+
+[Time]: 2025-10-31 11:17:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3800
+  To:    STARLINK-32844
+  Reason: 新衛星仰角 75.83° > (原衛星 50.71° + 5.0°)
+
+[Time]: 2025-10-31 11:18:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32844
+  To:    STARLINK-6310
+  Reason: 新衛星仰角 74.06° > (原衛星 42.83° + 5.0°)
+
+[Time]: 2025-10-31 11:19:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6310
+  To:    STARLINK-30835
+  Reason: 新衛星仰角 75.81° > (原衛星 42.36° + 5.0°)
+
+[Time]: 2025-10-31 11:20:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30835
+  To:    STARLINK-3604
+  Reason: 新衛星仰角 86.44° > (原衛星 44.38° + 5.0°)
+
+[Time]: 2025-10-31 11:21:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3604
+  To:    STARLINK-34869
+  Reason: 新衛星仰角 70.69° > (原衛星 48.08° + 5.0°)
+
+[Time]: 2025-10-31 11:22:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34869
+  To:    STARLINK-33901
+  Reason: 新衛星仰角 84.81° > (原衛星 45.21° + 5.0°)
+
+[Time]: 2025-10-31 11:23:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33901
+  To:    STARLINK-34461
+  Reason: 新衛星仰角 85.71° > (原衛星 53.45° + 5.0°)
+
+[Time]: 2025-10-31 11:24:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34461
+  To:    STARLINK-30578
+  Reason: 新衛星仰角 65.08° > (原衛星 54.37° + 5.0°)
+
+[Time]: 2025-10-31 11:25:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30578
+  To:    STARLINK-2722
+  Reason: 新衛星仰角 82.18° > (原衛星 40.45° + 5.0°)
+
+[Time]: 2025-10-31 11:26:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2722
+  To:    STARLINK-11571 [DTC]
+  Reason: 新衛星仰角 75.88° > (原衛星 51.26° + 5.0°)
+
+[Time]: 2025-10-31 11:27:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11571 [DTC]
+  To:    STARLINK-3550
+  Reason: 新衛星仰角 72.91° > (原衛星 41.81° + 5.0°)
+
+[Time]: 2025-10-31 11:28:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3550
+  To:    STARLINK-34468
+  Reason: 新衛星仰角 67.24° > (原衛星 46.63° + 5.0°)
+
+[Time]: 2025-10-31 11:29:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34468
+  To:    STARLINK-34127
+  Reason: 新衛星仰角 85.15° > (原衛星 38.98° + 5.0°)
+
+[Time]: 2025-10-31 11:30:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34127
+  To:    STARLINK-32021
+  Reason: 新衛星仰角 66.72° > (原衛星 49.10° + 5.0°)
+
+[Time]: 2025-10-31 11:31:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32021
+  To:    STARLINK-2697
+  Reason: 新衛星仰角 82.46° > (原衛星 36.23° + 5.0°)
+
+[Time]: 2025-10-31 11:32:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2697
+  To:    STARLINK-5175
+  Reason: 新衛星仰角 71.47° > (原衛星 53.78° + 5.0°)
+
+[Time]: 2025-10-31 11:33:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5175
+  To:    STARLINK-33930
+  Reason: 新衛星仰角 80.41° > (原衛星 47.77° + 5.0°)
+
+[Time]: 2025-10-31 11:34:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33930
+  To:    STARLINK-30597
+  Reason: 新衛星仰角 85.72° > (原衛星 42.73° + 5.0°)
+
+[Time]: 2025-10-31 11:35:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30597
+  To:    STARLINK-33935
+  Reason: 新衛星仰角 77.96° > (原衛星 51.10° + 5.0°)
+
+[Time]: 2025-10-31 11:36:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33935
+  To:    STARLINK-30218
+  Reason: 新衛星仰角 78.60° > (原衛星 40.61° + 5.0°)
+
+[Time]: 2025-10-31 11:37:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30218
+  To:    STARLINK-11535 [DTC]
+  Reason: 新衛星仰角 72.36° > (原衛星 56.21° + 5.0°)
+
+[Time]: 2025-10-31 11:38:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11535 [DTC]
+  To:    STARLINK-6200
+  Reason: 新衛星仰角 70.94° > (原衛星 40.87° + 5.0°)
+
+[Time]: 2025-10-31 11:39:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6200
+  To:    STARLINK-30581
+  Reason: 新衛星仰角 85.67° > (原衛星 40.54° + 5.0°)
+
+[Time]: 2025-10-31 11:40:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30581
+  To:    STARLINK-11547 [DTC]
+  Reason: 新衛星仰角 85.27° > (原衛星 50.27° + 5.0°)
+
+[Time]: 2025-10-31 11:41:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11547 [DTC]
+  To:    STARLINK-30100
+  Reason: 新衛星仰角 86.52° > (原衛星 35.35° + 5.0°)
+
+[Time]: 2025-10-31 11:42:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30100
+  To:    STARLINK-34092
+  Reason: 新衛星仰角 78.34° > (原衛星 53.88° + 5.0°)
+
+[Time]: 2025-10-31 11:43:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34092
+  To:    STARLINK-5221
+  Reason: 新衛星仰角 78.38° > (原衛星 51.20° + 5.0°)
+
+[Time]: 2025-10-31 11:44:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5221
+  To:    STARLINK-6144
+  Reason: 新衛星仰角 73.92° > (原衛星 52.00° + 5.0°)
+
+[Time]: 2025-10-31 11:45:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6144
+  To:    STARLINK-4147
+  Reason: 新衛星仰角 76.58° > (原衛星 61.98° + 5.0°)
+
+[Time]: 2025-10-31 11:46:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-4147
+  To:    STARLINK-31399
+  Reason: 新衛星仰角 74.23° > (原衛星 49.23° + 5.0°)
+
+[Time]: 2025-10-31 11:47:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31399
+  To:    STARLINK-30559
+  Reason: 新衛星仰角 79.62° > (原衛星 57.16° + 5.0°)
+
+[Time]: 2025-10-31 11:48:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30559
+  To:    STARLINK-30141
+  Reason: 新衛星仰角 69.39° > (原衛星 51.94° + 5.0°)
+
+[Time]: 2025-10-31 11:49:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30141
+  To:    STARLINK-30570
+  Reason: 新衛星仰角 64.81° > (原衛星 40.36° + 5.0°)
+
+[Time]: 2025-10-31 11:50:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30570
+  To:    STARLINK-34083
+  Reason: 新衛星仰角 80.86° > (原衛星 48.03° + 5.0°)
+
+[Time]: 2025-10-31 11:51:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34083
+  To:    STARLINK-30150
+  Reason: 新衛星仰角 74.01° > (原衛星 50.75° + 5.0°)
+
+[Time]: 2025-10-31 11:52:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30150
+  To:    STARLINK-34142
+  Reason: 新衛星仰角 77.98° > (原衛星 47.09° + 5.0°)
+
+[Time]: 2025-10-31 11:53:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34142
+  To:    STARLINK-31308
+  Reason: 新衛星仰角 67.77° > (原衛星 43.18° + 5.0°)
+
+[Time]: 2025-10-31 11:54:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31308
+  To:    STARLINK-34114
+  Reason: 新衛星仰角 73.43° > (原衛星 44.20° + 5.0°)
+
+[Time]: 2025-10-31 11:55:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34114
+  To:    STARLINK-32372
+  Reason: 新衛星仰角 68.14° > (原衛星 40.58° + 5.0°)
+
+[Time]: 2025-10-31 11:56:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32372
+  To:    STARLINK-5602
+  Reason: 新衛星仰角 77.48° > (原衛星 36.16° + 5.0°)
+
+[Time]: 2025-10-31 11:57:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5602
+  To:    STARLINK-3611
+  Reason: 新衛星仰角 77.71° > (原衛星 56.03° + 5.0°)
+
+[Time]: 2025-10-31 11:58:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3611
+  To:    STARLINK-32029
+  Reason: 新衛星仰角 74.57° > (原衛星 43.76° + 5.0°)
+
+[Time]: 2025-10-31 11:59:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32029
+  To:    STARLINK-34159
+  Reason: 新衛星仰角 66.93° > (原衛星 42.05° + 5.0°)
+
+[Time]: 2025-10-31 12:00:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34159
+  To:    STARLINK-11289 [DTC]
+  Reason: 新衛星仰角 64.92° > (原衛星 45.95° + 5.0°)
+
+[Time]: 2025-10-31 12:01:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11289 [DTC]
+  To:    STARLINK-3629
+  Reason: 新衛星仰角 81.71° > (原衛星 47.57° + 5.0°)
+
+[Time]: 2025-10-31 12:02:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3629
+  To:    STARLINK-5532
+  Reason: 新衛星仰角 80.30° > (原衛星 45.61° + 5.0°)
+
+[Time]: 2025-10-31 12:03:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5532
+  To:    STARLINK-5638
+  Reason: 新衛星仰角 84.26° > (原衛星 53.70° + 5.0°)
+
+[Time]: 2025-10-31 12:04:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5638
+  To:    STARLINK-34299
+  Reason: 新衛星仰角 71.80° > (原衛星 55.51° + 5.0°)
+
+[Time]: 2025-10-31 12:05:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34299
+  To:    STARLINK-32086
+  Reason: 新衛星仰角 80.57° > (原衛星 37.74° + 5.0°)
+
+[Time]: 2025-10-31 12:06:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32086
+  To:    STARLINK-33570
+  Reason: 新衛星仰角 73.69° > (原衛星 42.40° + 5.0°)
+
+[Time]: 2025-10-31 12:07:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33570
+  To:    STARLINK-2164
+  Reason: 新衛星仰角 80.76° > (原衛星 47.64° + 5.0°)
+
+[Time]: 2025-10-31 12:08:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2164
+  To:    STARLINK-30103
+  Reason: 新衛星仰角 87.09° > (原衛星 45.20° + 5.0°)
+
+[Time]: 2025-10-31 12:09:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30103
+  To:    STARLINK-5643
+  Reason: 新衛星仰角 67.05° > (原衛星 51.95° + 5.0°)
+
+[Time]: 2025-10-31 12:10:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5643
+  To:    STARLINK-2576
+  Reason: 新衛星仰角 76.65° > (原衛星 61.01° + 5.0°)
+
+[Time]: 2025-10-31 12:11:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2576
+  To:    STARLINK-34597
+  Reason: 新衛星仰角 75.18° > (原衛星 60.32° + 5.0°)
+
+[Time]: 2025-10-31 12:12:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34597
+  To:    STARLINK-31636
+  Reason: 新衛星仰角 70.85° > (原衛星 42.68° + 5.0°)
+
+[Time]: 2025-10-31 12:13:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31636
+  To:    STARLINK-30106
+  Reason: 新衛星仰角 82.26° > (原衛星 60.38° + 5.0°)
+
+[Time]: 2025-10-31 12:14:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30106
+  To:    STARLINK-35469
+  Reason: 新衛星仰角 68.14° > (原衛星 47.72° + 5.0°)
+
+[Time]: 2025-10-31 12:15:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-35469
+  To:    STARLINK-2587
+  Reason: 新衛星仰角 77.63° > (原衛星 38.18° + 5.0°)
+
+[Time]: 2025-10-31 12:16:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2587
+  To:    STARLINK-32386
+  Reason: 新衛星仰角 75.06° > (原衛星 52.38° + 5.0°)
+
+[Time]: 2025-10-31 12:17:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32386
+  To:    STARLINK-31822
+  Reason: 新衛星仰角 82.51° > (原衛星 39.90° + 5.0°)
+
+[Time]: 2025-10-31 12:18:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31822
+  To:    STARLINK-30113
+  Reason: 新衛星仰角 69.29° > (原衛星 49.25° + 5.0°)
+
+[Time]: 2025-10-31 12:19:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30113
+  To:    STARLINK-32049
+  Reason: 新衛星仰角 78.20° > (原衛星 60.90° + 5.0°)
+
+[Time]: 2025-10-31 12:20:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32049
+  To:    STARLINK-5127
+  Reason: 新衛星仰角 72.73° > (原衛星 46.46° + 5.0°)
+
+[Time]: 2025-10-31 12:21:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5127
+  To:    STARLINK-6257
+  Reason: 新衛星仰角 69.16° > (原衛星 60.57° + 5.0°)
+
+[Time]: 2025-10-31 12:23:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6257
+  To:    STARLINK-30330
+  Reason: 新衛星仰角 69.34° > (原衛星 34.72° + 5.0°)
+
+[Time]: 2025-10-31 12:24:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30330
+  To:    STARLINK-5151
+  Reason: 新衛星仰角 76.43° > (原衛星 42.38° + 5.0°)
+
+[Time]: 2025-10-31 12:25:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5151
+  To:    STARLINK-31323
+  Reason: 新衛星仰角 62.04° > (原衛星 53.51° + 5.0°)
+
+[Time]: 2025-10-31 12:26:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31323
+  To:    STARLINK-31473
+  Reason: 新衛星仰角 69.95° > (原衛星 42.74° + 5.0°)
+
+[Time]: 2025-10-31 12:27:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31473
+  To:    STARLINK-6247
+  Reason: 新衛星仰角 67.35° > (原衛星 61.08° + 5.0°)
+
+[Time]: 2025-10-31 12:28:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6247
+  To:    STARLINK-1068
+  Reason: 新衛星仰角 88.70° > (原衛星 38.93° + 5.0°)
+
+[Time]: 2025-10-31 12:29:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1068
+  To:    STARLINK-31493
+  Reason: 新衛星仰角 72.73° > (原衛星 51.16° + 5.0°)
+
+[Time]: 2025-10-31 12:30:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31493
+  To:    STARLINK-6184
+  Reason: 新衛星仰角 82.60° > (原衛星 38.07° + 5.0°)
+
+[Time]: 2025-10-31 12:31:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6184
+  To:    STARLINK-31340
+  Reason: 新衛星仰角 78.67° > (原衛星 47.27° + 5.0°)
+
+[Time]: 2025-10-31 12:32:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31340
+  To:    STARLINK-6240
+  Reason: 新衛星仰角 76.70° > (原衛星 53.50° + 5.0°)
+
+[Time]: 2025-10-31 12:33:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6240
+  To:    STARLINK-30306
+  Reason: 新衛星仰角 89.74° > (原衛星 43.53° + 5.0°)
+
+[Time]: 2025-10-31 12:34:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30306
+  To:    STARLINK-6245
+  Reason: 新衛星仰角 57.75° > (原衛星 51.71° + 5.0°)
+
+[Time]: 2025-10-31 12:36:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6245
+  To:    STARLINK-31092
+  Reason: 新衛星仰角 62.90° > (原衛星 45.80° + 5.0°)
+
+[Time]: 2025-10-31 12:37:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31092
+  To:    STARLINK-3592
+  Reason: 新衛星仰角 72.17° > (原衛星 65.59° + 5.0°)
+
+[Time]: 2025-10-31 12:38:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3592
+  To:    STARLINK-30309
+  Reason: 新衛星仰角 76.63° > (原衛星 40.31° + 5.0°)
+
+[Time]: 2025-10-31 12:39:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30309
+  To:    STARLINK-3136
+  Reason: 新衛星仰角 74.93° > (原衛星 58.33° + 5.0°)
+
+[Time]: 2025-10-31 12:40:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3136
+  To:    STARLINK-2621
+  Reason: 新衛星仰角 70.65° > (原衛星 41.49° + 5.0°)
+
+[Time]: 2025-10-31 12:41:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2621
+  To:    STARLINK-3069
+  Reason: 新衛星仰角 75.40° > (原衛星 48.05° + 5.0°)
+
+[Time]: 2025-10-31 12:42:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3069
+  To:    STARLINK-3637
+  Reason: 新衛星仰角 78.80° > (原衛星 61.23° + 5.0°)
+
+[Time]: 2025-10-31 12:43:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3637
+  To:    STARLINK-32594
+  Reason: 新衛星仰角 75.40° > (原衛星 55.52° + 5.0°)
+
+[Time]: 2025-10-31 12:44:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32594
+  To:    STARLINK-3128
+  Reason: 新衛星仰角 76.76° > (原衛星 42.48° + 5.0°)
+
+[Time]: 2025-10-31 12:45:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3128
+  To:    STARLINK-3260
+  Reason: 新衛星仰角 73.74° > (原衛星 47.73° + 5.0°)
+
+[Time]: 2025-10-31 12:46:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3260
+  To:    STARLINK-34417
+  Reason: 新衛星仰角 59.21° > (原衛星 51.52° + 5.0°)
+
+[Time]: 2025-10-31 12:47:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34417
+  To:    STARLINK-6311
+  Reason: 新衛星仰角 64.12° > (原衛星 38.07° + 5.0°)
+
+[Time]: 2025-10-31 12:48:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6311
+  To:    STARLINK-31165
+  Reason: 新衛星仰角 73.48° > (原衛星 49.14° + 5.0°)
+
+[Time]: 2025-10-31 12:49:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31165
+  To:    STARLINK-5249
+  Reason: 新衛星仰角 72.23° > (原衛星 59.02° + 5.0°)
+
+[Time]: 2025-10-31 12:50:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5249
+  To:    STARLINK-30198
+  Reason: 新衛星仰角 67.03° > (原衛星 50.26° + 5.0°)
+
+[Time]: 2025-10-31 12:51:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30198
+  To:    STARLINK-5128
+  Reason: 新衛星仰角 63.70° > (原衛星 53.70° + 5.0°)
+
+[Time]: 2025-10-31 12:52:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-5128
+  To:    STARLINK-2643
+  Reason: 新衛星仰角 73.80° > (原衛星 67.23° + 5.0°)
+
+[Time]: 2025-10-31 12:53:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-2643
+  To:    STARLINK-31176
+  Reason: 新衛星仰角 77.05° > (原衛星 41.64° + 5.0°)
+------------------------------
+✅ 模擬完成！總共發生 116 次事件。

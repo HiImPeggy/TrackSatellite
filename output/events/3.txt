@@ -1,0 +1,586 @@
+--- 開始執行 Distance-based Handover 模擬 (含 Ping-pong 抑制) ---
+讀取輸入資料: output/visible_satellites_hsinchu.csv
+距離門檻 (Max Distance): 2000.0 km
+遲滯 (Hysteresis): 50.0 km
+Ping-pong 防護窗口: 360 秒
+------------------------------
+
+--- 模擬結果：Handover 日誌 ---
+
+[Time]: 2025-10-31 10:54:29
+  Event: 初始連線 (Initial Acquisition)
+  From:  None
+  To:    STARLINK-30841
+  Reason: 選取最近衛星 (距離 664.4 km)
+
+[Time]: 2025-10-31 10:55:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30841
+  To:    STARLINK-11248 [DTC]
+  Reason: 新衛星距離 697.5 km < (原衛星 803.5 km - 50.0 km)
+
+[Time]: 2025-10-31 10:57:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11248 [DTC]
+  To:    STARLINK-31917
+  Reason: 新衛星距離 493.1 km < (原衛星 644.6 km - 50.0 km)
+
+[Time]: 2025-10-31 10:58:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31917
+  To:    STARLINK-11151 [DTC]
+  Reason: 新衛星距離 413.6 km < (原衛星 601.2 km - 50.0 km)
+
+[Time]: 2025-10-31 11:00:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11151 [DTC]
+  To:    STARLINK-30580
+  Reason: 新衛星距離 498.6 km < (原衛星 758.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:01:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30580
+  To:    STARLINK-11271 [DTC]
+  Reason: 新衛星距離 456.2 km < (原衛星 724.7 km - 50.0 km)
+
+[Time]: 2025-10-31 11:02:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11271 [DTC]
+  To:    STARLINK-33933
+  Reason: 新衛星距離 489.9 km < (原衛星 647.4 km - 50.0 km)
+
+[Time]: 2025-10-31 11:03:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33933
+  To:    STARLINK-11623 [DTC]
+  Reason: 新衛星距離 409.0 km < (原衛星 635.2 km - 50.0 km)
+
+[Time]: 2025-10-31 11:05:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11623 [DTC]
+  To:    STARLINK-11608 [DTC]
+  Reason: 新衛星距離 463.6 km < (原衛星 913.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:06:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11608 [DTC]
+  To:    STARLINK-11163 [DTC]
+  Reason: 新衛星距離 405.8 km < (原衛星 527.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:07:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11163 [DTC]
+  To:    STARLINK-34900
+  Reason: 新衛星距離 474.1 km < (原衛星 613.4 km - 50.0 km)
+
+[Time]: 2025-10-31 11:08:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34900
+  To:    STARLINK-33844
+  Reason: 新衛星距離 515.6 km < (原衛星 706.9 km - 50.0 km)
+
+[Time]: 2025-10-31 11:10:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33844
+  To:    STARLINK-11621 [DTC]
+  Reason: 新衛星距離 506.8 km < (原衛星 812.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:11:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11621 [DTC]
+  To:    STARLINK-31988
+  Reason: 新衛星距離 497.2 km < (原衛星 683.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:13:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31988
+  To:    STARLINK-34729
+  Reason: 新衛星距離 472.1 km < (原衛星 854.7 km - 50.0 km)
+
+[Time]: 2025-10-31 11:14:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34729
+  To:    STARLINK-34823
+  Reason: 新衛星距離 482.8 km < (原衛星 741.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:15:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34823
+  To:    STARLINK-11273 [DTC]
+  Reason: 新衛星距離 386.9 km < (原衛星 759.7 km - 50.0 km)
+
+[Time]: 2025-10-31 11:17:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11273 [DTC]
+  To:    STARLINK-32844
+  Reason: 新衛星距離 482.9 km < (原衛星 807.6 km - 50.0 km)
+
+[Time]: 2025-10-31 11:18:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32844
+  To:    STARLINK-32848
+  Reason: 新衛星距離 493.8 km < (原衛星 665.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:19:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32848
+  To:    STARLINK-30533
+  Reason: 新衛星距離 514.6 km < (原衛星 716.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:20:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30533
+  To:    STARLINK-34913
+  Reason: 新衛星距離 468.4 km < (原衛星 782.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:21:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34913
+  To:    STARLINK-34869
+  Reason: 新衛星距離 465.3 km < (原衛星 553.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:22:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34869
+  To:    STARLINK-1210
+  Reason: 新衛星距離 518.8 km < (原衛星 602.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:23:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1210
+  To:    STARLINK-11225 [DTC]
+  Reason: 新衛星距離 389.2 km < (原衛星 821.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:25:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11225 [DTC]
+  To:    STARLINK-33978
+  Reason: 新衛星距離 507.9 km < (原衛星 921.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:26:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33978
+  To:    STARLINK-11571 [DTC]
+  Reason: 新衛星距離 343.4 km < (原衛星 558.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:27:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11571 [DTC]
+  To:    STARLINK-11583 [DTC]
+  Reason: 新衛星距離 382.7 km < (原衛星 485.2 km - 50.0 km)
+
+[Time]: 2025-10-31 11:28:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11583 [DTC]
+  To:    STARLINK-34121
+  Reason: 新衛星距離 557.4 km < (原衛星 684.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:29:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34121
+  To:    STARLINK-34127
+  Reason: 新衛星距離 480.8 km < (原衛星 723.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:30:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34127
+  To:    STARLINK-11190 [DTC]
+  Reason: 新衛星距離 480.7 km < (原衛星 618.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:31:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11190 [DTC]
+  To:    STARLINK-11529 [DTC]
+  Reason: 新衛星距離 445.5 km < (原衛星 546.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:33:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11529 [DTC]
+  To:    STARLINK-1060
+  Reason: 新衛星距離 432.2 km < (原衛星 716.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:35:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1060
+  To:    STARLINK-33935
+  Reason: 新衛星距離 490.9 km < (原衛星 811.4 km - 50.0 km)
+
+[Time]: 2025-10-31 11:36:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33935
+  To:    STARLINK-32091
+  Reason: 新衛星距離 493.8 km < (原衛星 706.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:37:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32091
+  To:    STARLINK-11535 [DTC]
+  Reason: 新衛星距離 323.3 km < (原衛星 582.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:39:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11535 [DTC]
+  To:    STARLINK-11417 [DTC]
+  Reason: 新衛星距離 438.2 km < (原衛星 830.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:40:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11417 [DTC]
+  To:    STARLINK-11547 [DTC]
+  Reason: 新衛星距離 330.0 km < (原衛星 444.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:41:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11547 [DTC]
+  To:    STARLINK-11078 [DTC]
+  Reason: 新衛星距離 454.4 km < (原衛星 543.9 km - 50.0 km)
+
+[Time]: 2025-10-31 11:42:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11078 [DTC]
+  To:    STARLINK-34092
+  Reason: 新衛星距離 488.6 km < (原衛星 598.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:43:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34092
+  To:    STARLINK-11458 [DTC]
+  Reason: 新衛星距離 484.4 km < (原衛星 602.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:45:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11458 [DTC]
+  To:    STARLINK-33881
+  Reason: 新衛星距離 505.0 km < (原衛星 780.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:46:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33881
+  To:    STARLINK-33957
+  Reason: 新衛星距離 499.5 km < (原衛星 698.9 km - 50.0 km)
+
+[Time]: 2025-10-31 11:47:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33957
+  To:    STARLINK-34144
+  Reason: 新衛星距離 498.4 km < (原衛星 737.2 km - 50.0 km)
+
+[Time]: 2025-10-31 11:48:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34144
+  To:    STARLINK-31348
+  Reason: 新衛星距離 553.0 km < (原衛星 731.3 km - 50.0 km)
+
+[Time]: 2025-10-31 11:49:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31348
+  To:    STARLINK-34123
+  Reason: 新衛星距離 533.0 km < (原衛星 641.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:51:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34123
+  To:    STARLINK-32606
+  Reason: 新衛星距離 489.6 km < (原衛星 777.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:52:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32606
+  To:    STARLINK-34142
+  Reason: 新衛星距離 490.8 km < (原衛星 680.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:53:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34142
+  To:    STARLINK-31308
+  Reason: 新衛星距離 520.0 km < (原衛星 677.1 km - 50.0 km)
+
+[Time]: 2025-10-31 11:54:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31308
+  To:    STARLINK-34114
+  Reason: 新衛星距離 499.1 km < (原衛星 669.9 km - 50.0 km)
+
+[Time]: 2025-10-31 11:55:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34114
+  To:    STARLINK-32372
+  Reason: 新衛星距離 514.2 km < (原衛星 705.8 km - 50.0 km)
+
+[Time]: 2025-10-31 11:56:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32372
+  To:    STARLINK-11550 [DTC]
+  Reason: 新衛星距離 492.4 km < (原衛星 766.5 km - 50.0 km)
+
+[Time]: 2025-10-31 11:57:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11550 [DTC]
+  To:    STARLINK-31506
+  Reason: 新衛星距離 517.1 km < (原衛星 624.2 km - 50.0 km)
+
+[Time]: 2025-10-31 11:58:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31506
+  To:    STARLINK-32029
+  Reason: 新衛星距離 492.8 km < (原衛星 613.0 km - 50.0 km)
+
+[Time]: 2025-10-31 11:59:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32029
+  To:    STARLINK-34159
+  Reason: 新衛星距離 517.9 km < (原衛星 683.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:00:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34159
+  To:    STARLINK-1628
+  Reason: 新衛星距離 351.4 km < (原衛星 647.0 km - 50.0 km)
+
+[Time]: 2025-10-31 12:02:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1628
+  To:    STARLINK-11406 [DTC]
+  Reason: 新衛星距離 476.0 km < (原衛星 781.4 km - 50.0 km)
+
+[Time]: 2025-10-31 12:03:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11406 [DTC]
+  To:    STARLINK-11205 [DTC]
+  Reason: 新衛星距離 439.7 km < (原衛星 762.6 km - 50.0 km)
+
+[Time]: 2025-10-31 12:04:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11205 [DTC]
+  To:    STARLINK-34299
+  Reason: 新衛星距離 504.2 km < (原衛星 614.3 km - 50.0 km)
+
+[Time]: 2025-10-31 12:05:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34299
+  To:    STARLINK-11206 [DTC]
+  Reason: 新衛星距離 448.2 km < (原衛星 744.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:07:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11206 [DTC]
+  To:    STARLINK-33595
+  Reason: 新衛星距離 524.7 km < (原衛星 805.6 km - 50.0 km)
+
+[Time]: 2025-10-31 12:08:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33595
+  To:    STARLINK-11288 [DTC]
+  Reason: 新衛星距離 438.1 km < (原衛星 531.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:09:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11288 [DTC]
+  To:    STARLINK-31645
+  Reason: 新衛星距離 516.7 km < (原衛星 663.8 km - 50.0 km)
+
+[Time]: 2025-10-31 12:11:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31645
+  To:    STARLINK-34597
+  Reason: 新衛星距離 485.5 km < (原衛星 807.1 km - 50.0 km)
+
+[Time]: 2025-10-31 12:12:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34597
+  To:    STARLINK-1494
+  Reason: 新衛星距離 495.7 km < (原衛星 667.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:14:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1494
+  To:    STARLINK-34556
+  Reason: 新衛星距離 594.5 km < (原衛星 728.2 km - 50.0 km)
+
+[Time]: 2025-10-31 12:15:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34556
+  To:    STARLINK-33582
+  Reason: 新衛星距離 501.1 km < (原衛星 682.6 km - 50.0 km)
+
+[Time]: 2025-10-31 12:16:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33582
+  To:    STARLINK-32386
+  Reason: 新衛星距離 491.9 km < (原衛星 547.1 km - 50.0 km)
+
+[Time]: 2025-10-31 12:17:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32386
+  To:    STARLINK-11403 [DTC]
+  Reason: 新衛星距離 336.3 km < (原衛星 709.4 km - 50.0 km)
+
+[Time]: 2025-10-31 12:19:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11403 [DTC]
+  To:    STARLINK-32049
+  Reason: 新衛星距離 486.0 km < (原衛星 867.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:20:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32049
+  To:    STARLINK-11412 [DTC]
+  Reason: 新衛星距離 411.8 km < (原衛星 638.2 km - 50.0 km)
+
+[Time]: 2025-10-31 12:22:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11412 [DTC]
+  To:    STARLINK-31646
+  Reason: 新衛星距離 566.2 km < (原衛星 700.1 km - 50.0 km)
+
+[Time]: 2025-10-31 12:23:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31646
+  To:    STARLINK-33601
+  Reason: 新衛星距離 527.2 km < (原衛星 759.6 km - 50.0 km)
+
+[Time]: 2025-10-31 12:24:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-33601
+  To:    STARLINK-31707
+  Reason: 新衛星距離 508.0 km < (原衛星 751.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:25:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31707
+  To:    STARLINK-11200 [DTC]
+  Reason: 新衛星距離 430.7 km < (原衛星 642.2 km - 50.0 km)
+
+[Time]: 2025-10-31 12:26:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11200 [DTC]
+  To:    STARLINK-31473
+  Reason: 新衛星距離 510.8 km < (原衛星 570.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:28:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31473
+  To:    STARLINK-1068
+  Reason: 新衛星距離 546.3 km < (原衛星 829.0 km - 50.0 km)
+
+[Time]: 2025-10-31 12:29:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1068
+  To:    STARLINK-31493
+  Reason: 新衛星距離 503.6 km < (原衛星 683.7 km - 50.0 km)
+
+[Time]: 2025-10-31 12:30:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-31493
+  To:    STARLINK-6184
+  Reason: 新衛星距離 563.9 km < (原衛星 742.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:31:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-6184
+  To:    STARLINK-11392 [DTC]
+  Reason: 新衛星距離 474.8 km < (原衛星 736.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:33:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11392 [DTC]
+  To:    STARLINK-3849
+  Reason: 新衛星距離 550.3 km < (原衛星 671.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:34:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3849
+  To:    STARLINK-32023
+  Reason: 新衛星距離 628.7 km < (原衛星 712.4 km - 50.0 km)
+
+[Time]: 2025-10-31 12:35:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32023
+  To:    STARLINK-1986
+  Reason: 新衛星距離 461.1 km < (原衛星 848.0 km - 50.0 km)
+
+[Time]: 2025-10-31 12:37:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1986
+  To:    STARLINK-1820
+  Reason: 新衛星距離 502.2 km < (原衛星 900.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:38:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1820
+  To:    STARLINK-30309
+  Reason: 新衛星距離 573.9 km < (原衛星 670.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:39:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30309
+  To:    STARLINK-3136
+  Reason: 新衛星距離 557.2 km < (原衛星 647.4 km - 50.0 km)
+
+[Time]: 2025-10-31 12:40:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3136
+  To:    STARLINK-11285 [DTC]
+  Reason: 新衛星距離 516.8 km < (原衛星 776.9 km - 50.0 km)
+
+[Time]: 2025-10-31 12:42:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11285 [DTC]
+  To:    STARLINK-11509 [DTC]
+  Reason: 新衛星距離 486.7 km < (原衛星 774.2 km - 50.0 km)
+
+[Time]: 2025-10-31 12:43:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11509 [DTC]
+  To:    STARLINK-32594
+  Reason: 新衛星距離 486.9 km < (原衛星 556.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:44:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-32594
+  To:    STARLINK-3128
+  Reason: 新衛星距離 553.1 km < (原衛星 672.2 km - 50.0 km)
+
+[Time]: 2025-10-31 12:45:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-3128
+  To:    STARLINK-30183
+  Reason: 新衛星距離 532.5 km < (原衛星 706.6 km - 50.0 km)
+
+[Time]: 2025-10-31 12:46:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-30183
+  To:    STARLINK-34417
+  Reason: 新衛星距離 504.0 km < (原衛星 760.3 km - 50.0 km)
+
+[Time]: 2025-10-31 12:47:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-34417
+  To:    STARLINK-11358 [DTC]
+  Reason: 新衛星距離 416.7 km < (原衛星 676.8 km - 50.0 km)
+
+[Time]: 2025-10-31 12:48:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11358 [DTC]
+  To:    STARLINK-11375 [DTC]
+  Reason: 新衛星距離 386.4 km < (原衛星 464.1 km - 50.0 km)
+
+[Time]: 2025-10-31 12:50:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11375 [DTC]
+  To:    STARLINK-1830
+  Reason: 新衛星距離 287.2 km < (原衛星 912.5 km - 50.0 km)
+
+[Time]: 2025-10-31 12:52:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-1830
+  To:    STARLINK-11671 [DTC]
+  Reason: 新衛星距離 474.2 km < (原衛星 720.4 km - 50.0 km)
+
+[Time]: 2025-10-31 12:53:29
+  Event: 遲滯換手 (Hysteresis HO)
+  From:  STARLINK-11671 [DTC]
+  To:    STARLINK-35265
+  Reason: 新衛星距離 462.4 km < (原衛星 592.0 km - 50.0 km)
+------------------------------
+✅ 模擬完成！總共發生 96 次事件。
