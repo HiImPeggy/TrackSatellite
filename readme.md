@@ -33,9 +33,11 @@ python3 -m http.server 8000
 
 ### Handover Strategy
 
-1. `HandoverTest.py`: best-elevation
-2. `HandoverDis.py`: best-distance
-3. `HandoverDisPingPong.py`: best-distance with Ping-Pong
-4. `HandoverTest2.py`: elevation
-5. force handover
-6. `HandoverServiceSimple.py`: service time
+| Name         | File                     | Description                                          | Output File |
+|--------------|--------------------------|------------------------------------------------------|-------------|
+| Elevation5   | HandoverTest.py          | HO if T-gNB > S-gNB 5°                               | 1.txt       |
+| Distance     | HandoverDis.py           | HO if T-gNB > S-gNB 50.0km (satellite to UE)         | 2.txt       |
+| PingPong     | HandoverDisPingPong.py   | HO if T-gNB > S-gNB 50.0km and no Ping-Pong in 120s  | 3.txt       |
+| Elevation30  | HandoverTest2.py         | HO if T-gNB > S-gNB 30°                              | 4.txt       |
+| BHO          | HandoverTest2.py         | HO if S-gNB cannot serve UE                          | 5.txt       |
+| Service Time | HandoverServiceSimple.py | HO if T-gNB's serving time > S-gMB's 120s            | 6.txt       |
