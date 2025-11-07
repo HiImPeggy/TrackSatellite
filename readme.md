@@ -33,14 +33,16 @@ python3 -m http.server 8000
 
 ### BHO Strategy
 
-1. Elevation
-`python3 HandoverForced.py --strategy elevation`
+```
+# Elevation
+python3 HandoverForced.py --strategy elevation
 
-2. Distance
-`python3 HandoverForced.py --strategy distance`
+# Distance
+python3 HandoverForced.py --strategy distance
 
-3. Servie Time
-`python3 HandoverForced.py --strategy time`
+# Servie Time
+python3 HandoverForced.py --strategy time
+```
 
 ### Handover Strategy
 
