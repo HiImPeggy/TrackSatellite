@@ -39,3 +39,14 @@ python3 -m http.server 8000
 4. `HandoverTest2.py`: elevation
 5. force handover
 6. `HandoverServiceSimple.py`: service time
+
+### BHO Strategy
+
+1. Elevation
+`python3 HandoverForced.py --strategy elevation`
+
+2. Distance
+`python3 HandoverForced.py --strategy distance`
+
+3. Servie Time
+`python3 HandoverForced.py --strategy time`

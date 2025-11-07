@@ -1,0 +1,140 @@
+--- 開始執行 Forced-only Handover 模擬 (strategy=time) ---
+讀取輸入資料: output/visible_satellites_hsinchu.csv
+換手門檻 (Min Elevation): 20.0°
+------------------------------
+
+--- 模擬結果：Handover 日誌 ---
+
+[Time]: 2025-10-31 10:54:29
+  Event: 初始連線 (Initial Acquisition)
+  From:  None
+  To:    STARLINK-30354
+  Reason: 找到第一顆合格衛星 (距離 914.64 km)
+
+[Time]: 2025-10-31 10:59:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30354
+  To:    STARLINK-2644
+  Reason: 原衛星仰角 13.53° 過低
+
+[Time]: 2025-10-31 11:05:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-2644
+  To:    STARLINK-1019
+  Reason: 原衛星仰角 13.80° 過低
+
+[Time]: 2025-10-31 11:11:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1019
+  To:    STARLINK-30545
+  Reason: 原衛星仰角 14.65° 過低
+
+[Time]: 2025-10-31 11:17:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30545
+  To:    STARLINK-1647
+  Reason: 原衛星仰角 12.69° 過低
+
+[Time]: 2025-10-31 11:22:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1647
+  To:    STARLINK-6192
+  Reason: 原衛星仰角 15.91° 過低
+
+[Time]: 2025-10-31 11:28:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-6192
+  To:    STARLINK-30138
+  Reason: 原衛星仰角 15.23° 過低
+
+[Time]: 2025-10-31 11:34:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30138
+  To:    STARLINK-30218
+  Reason: 原衛星仰角 16.11° 過低
+
+[Time]: 2025-10-31 11:40:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30218
+  To:    STARLINK-30805
+  Reason: 原衛星仰角 12.39° 過低
+
+[Time]: 2025-10-31 11:46:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30805
+  To:    STARLINK-2570
+  Reason: 原衛星仰角 13.96° 過低
+
+[Time]: 2025-10-31 11:52:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-2570
+  To:    STARLINK-5528
+  Reason: 原衛星仰角 13.13° 過低
+
+[Time]: 2025-10-31 11:58:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-5528
+  To:    STARLINK-1513
+  Reason: 原衛星仰角 13.71° 過低
+
+[Time]: 2025-10-31 12:03:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1513
+  To:    STARLINK-35469
+  Reason: 原衛星仰角 18.74° 過低
+
+[Time]: 2025-10-31 12:06:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-35469
+  To:    STARLINK-1992
+  Reason: 原衛星仰角 -999.00° 過低
+
+[Time]: 2025-10-31 12:11:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1992
+  To:    STARLINK-2706
+  Reason: 原衛星仰角 14.51° 過低
+
+[Time]: 2025-10-31 12:16:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-2706
+  To:    STARLINK-30113
+  Reason: 原衛星仰角 13.56° 過低
+
+[Time]: 2025-10-31 12:22:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30113
+  To:    STARLINK-2609
+  Reason: 原衛星仰角 13.66° 過低
+
+[Time]: 2025-10-31 12:27:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-2609
+  To:    STARLINK-6184
+  Reason: 原衛星仰角 17.74° 過低
+
+[Time]: 2025-10-31 12:33:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-6184
+  To:    STARLINK-3072
+  Reason: 原衛星仰角 17.37° 過低
+
+[Time]: 2025-10-31 12:39:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-3072
+  To:    STARLINK-3069
+  Reason: 原衛星仰角 12.22° 過低
+
+[Time]: 2025-10-31 12:45:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-3069
+  To:    STARLINK-3102
+  Reason: 原衛星仰角 13.31° 過低
+
+[Time]: 2025-10-31 12:51:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-3102
+  To:    STARLINK-1020
+  Reason: 原衛星仰角 14.08° 過低
+------------------------------
+✅ 模擬完成！總共發生 22 次事件。

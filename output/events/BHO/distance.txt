@@ -1,0 +1,284 @@
+--- 開始執行 Forced-only Handover 模擬 (strategy=distance) ---
+讀取輸入資料: output/visible_satellites_hsinchu.csv
+換手門檻 (Min Elevation): 20.0°
+------------------------------
+
+--- 模擬結果：Handover 日誌 ---
+
+[Time]: 2025-10-31 10:54:29
+  Event: 初始連線 (Initial Acquisition)
+  From:  None
+  To:    STARLINK-30841
+  Reason: 找到第一顆合格衛星 (距離 664.43 km)
+
+[Time]: 2025-10-31 10:57:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30841
+  To:    STARLINK-31917
+  Reason: 原衛星仰角 16.91° 過低；選擇距離最近的衛星 (距離 493.06 km)
+
+[Time]: 2025-10-31 11:00:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31917
+  To:    STARLINK-30580
+  Reason: 原衛星仰角 16.77° 過低；選擇距離最近的衛星 (距離 498.65 km)
+
+[Time]: 2025-10-31 11:03:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-30580
+  To:    STARLINK-11623 [DTC]
+  Reason: 原衛星仰角 12.71° 過低；選擇距離最近的衛星 (距離 409.04 km)
+
+[Time]: 2025-10-31 11:05:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11623 [DTC]
+  To:    STARLINK-11608 [DTC]
+  Reason: 原衛星仰角 17.30° 過低；選擇距離最近的衛星 (距離 463.64 km)
+
+[Time]: 2025-10-31 11:07:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11608 [DTC]
+  To:    STARLINK-34900
+  Reason: 原衛星仰角 17.74° 過低；選擇距離最近的衛星 (距離 474.06 km)
+
+[Time]: 2025-10-31 11:10:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34900
+  To:    STARLINK-11621 [DTC]
+  Reason: 原衛星仰角 11.35° 過低；選擇距離最近的衛星 (距離 506.83 km)
+
+[Time]: 2025-10-31 11:12:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11621 [DTC]
+  To:    STARLINK-34729
+  Reason: 原衛星仰角 14.17° 過低；選擇距離最近的衛星 (距離 510.54 km)
+
+[Time]: 2025-10-31 11:15:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34729
+  To:    STARLINK-11273 [DTC]
+  Reason: 原衛星仰角 18.71° 過低；選擇距離最近的衛星 (距離 386.86 km)
+
+[Time]: 2025-10-31 11:18:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11273 [DTC]
+  To:    STARLINK-32848
+  Reason: 原衛星仰角 12.14° 過低；選擇距離最近的衛星 (距離 493.76 km)
+
+[Time]: 2025-10-31 11:21:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32848
+  To:    STARLINK-34869
+  Reason: 原衛星仰角 12.89° 過低；選擇距離最近的衛星 (距離 465.31 km)
+
+[Time]: 2025-10-31 11:24:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34869
+  To:    STARLINK-11225 [DTC]
+  Reason: 原衛星仰角 13.93° 過低；選擇距離最近的衛星 (距離 559.68 km)
+
+[Time]: 2025-10-31 11:25:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11225 [DTC]
+  To:    STARLINK-33978
+  Reason: 原衛星仰角 19.18° 過低；選擇距離最近的衛星 (距離 507.86 km)
+
+[Time]: 2025-10-31 11:28:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-33978
+  To:    STARLINK-34121
+  Reason: 原衛星仰角 18.30° 過低；選擇距離最近的衛星 (距離 557.35 km)
+
+[Time]: 2025-10-31 11:31:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34121
+  To:    STARLINK-11529 [DTC]
+  Reason: 原衛星仰角 13.81° 過低；選擇距離最近的衛星 (距離 445.48 km)
+
+[Time]: 2025-10-31 11:34:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11529 [DTC]
+  To:    STARLINK-1060
+  Reason: 原衛星仰角 13.09° 過低；選擇距離最近的衛星 (距離 486.79 km)
+
+[Time]: 2025-10-31 11:36:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1060
+  To:    STARLINK-32091
+  Reason: 原衛星仰角 13.44° 過低；選擇距離最近的衛星 (距離 493.81 km)
+
+[Time]: 2025-10-31 11:39:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32091
+  To:    STARLINK-11417 [DTC]
+  Reason: 原衛星仰角 17.39° 過低；選擇距離最近的衛星 (距離 438.21 km)
+
+[Time]: 2025-10-31 11:42:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11417 [DTC]
+  To:    STARLINK-34092
+  Reason: 原衛星仰角 12.60° 過低；選擇距離最近的衛星 (距離 488.63 km)
+
+[Time]: 2025-10-31 11:45:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34092
+  To:    STARLINK-33881
+  Reason: 原衛星仰角 16.53° 過低；選擇距離最近的衛星 (距離 505.03 km)
+
+[Time]: 2025-10-31 11:48:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-33881
+  To:    STARLINK-31348
+  Reason: 原衛星仰角 13.94° 過低；選擇距離最近的衛星 (距離 552.97 km)
+
+[Time]: 2025-10-31 11:51:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31348
+  To:    STARLINK-32606
+  Reason: 原衛星仰角 16.43° 過低；選擇距離最近的衛星 (距離 489.65 km)
+
+[Time]: 2025-10-31 11:54:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32606
+  To:    STARLINK-34114
+  Reason: 原衛星仰角 13.84° 過低；選擇距離最近的衛星 (距離 499.08 km)
+
+[Time]: 2025-10-31 11:57:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34114
+  To:    STARLINK-31506
+  Reason: 原衛星仰角 13.65° 過低；選擇距離最近的衛星 (距離 517.08 km)
+
+[Time]: 2025-10-31 12:00:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31506
+  To:    STARLINK-1628
+  Reason: 原衛星仰角 16.23° 過低；選擇距離最近的衛星 (距離 351.39 km)
+
+[Time]: 2025-10-31 12:02:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1628
+  To:    STARLINK-11406 [DTC]
+  Reason: 原衛星仰角 10.66° 過低；選擇距離最近的衛星 (距離 475.96 km)
+
+[Time]: 2025-10-31 12:04:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11406 [DTC]
+  To:    STARLINK-34299
+  Reason: 原衛星仰角 11.67° 過低；選擇距離最近的衛星 (距離 504.16 km)
+
+[Time]: 2025-10-31 12:07:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34299
+  To:    STARLINK-33595
+  Reason: 原衛星仰角 12.70° 過低；選擇距離最近的衛星 (距離 524.74 km)
+
+[Time]: 2025-10-31 12:10:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-33595
+  To:    STARLINK-32578
+  Reason: 原衛星仰角 19.04° 過低；選擇距離最近的衛星 (距離 511.06 km)
+
+[Time]: 2025-10-31 12:13:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32578
+  To:    STARLINK-1494
+  Reason: 原衛星仰角 15.06° 過低；選擇距離最近的衛星 (距離 451.72 km)
+
+[Time]: 2025-10-31 12:15:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1494
+  To:    STARLINK-33582
+  Reason: 原衛星仰角 17.34° 過低；選擇距離最近的衛星 (距離 501.06 km)
+
+[Time]: 2025-10-31 12:18:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-33582
+  To:    STARLINK-11403 [DTC]
+  Reason: 原衛星仰角 18.03° 過低；選擇距離最近的衛星 (距離 497.90 km)
+
+[Time]: 2025-10-31 12:19:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11403 [DTC]
+  To:    STARLINK-32049
+  Reason: 原衛星仰角 18.49° 過低；選擇距離最近的衛星 (距離 486.03 km)
+
+[Time]: 2025-10-31 12:22:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32049
+  To:    STARLINK-31646
+  Reason: 原衛星仰角 15.10° 過低；選擇距離最近的衛星 (距離 566.17 km)
+
+[Time]: 2025-10-31 12:25:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31646
+  To:    STARLINK-11200 [DTC]
+  Reason: 原衛星仰角 12.60° 過低；選擇距離最近的衛星 (距離 430.71 km)
+
+[Time]: 2025-10-31 12:27:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11200 [DTC]
+  To:    STARLINK-31473
+  Reason: 原衛星仰角 19.33° 過低；選擇距離最近的衛星 (距離 545.37 km)
+
+[Time]: 2025-10-31 12:29:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31473
+  To:    STARLINK-31493
+  Reason: 原衛星仰角 19.02° 過低；選擇距離最近的衛星 (距離 503.60 km)
+
+[Time]: 2025-10-31 12:32:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31493
+  To:    STARLINK-11392 [DTC]
+  Reason: 原衛星仰角 12.82° 過低；選擇距離最近的衛星 (距離 390.90 km)
+
+[Time]: 2025-10-31 12:34:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11392 [DTC]
+  To:    STARLINK-32023
+  Reason: 原衛星仰角 13.58° 過低；選擇距離最近的衛星 (距離 628.68 km)
+
+[Time]: 2025-10-31 12:36:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32023
+  To:    STARLINK-31092
+  Reason: 原衛星仰角 19.01° 過低；選擇距離最近的衛星 (距離 538.37 km)
+
+[Time]: 2025-10-31 12:40:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-31092
+  To:    STARLINK-11285 [DTC]
+  Reason: 原衛星仰角 11.89° 過低；選擇距離最近的衛星 (距離 516.75 km)
+
+[Time]: 2025-10-31 12:43:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-11285 [DTC]
+  To:    STARLINK-32594
+  Reason: 原衛星仰角 13.46° 過低；選擇距離最近的衛星 (距離 486.85 km)
+
+[Time]: 2025-10-31 12:46:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-32594
+  To:    STARLINK-34417
+  Reason: 原衛星仰角 13.85° 過低；選擇距離最近的衛星 (距離 504.01 km)
+
+[Time]: 2025-10-31 12:49:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-34417
+  To:    STARLINK-35108
+  Reason: 原衛星仰角 12.43° 過低；選擇距離最近的衛星 (距離 533.05 km)
+
+[Time]: 2025-10-31 12:51:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-35108
+  To:    STARLINK-1830
+  Reason: 原衛星仰角 17.61° 過低；選擇距離最近的衛星 (距離 318.95 km)
+
+[Time]: 2025-10-31 12:52:29
+  Event: 強制換手 (Forced HO)
+  From:  STARLINK-1830
+  To:    STARLINK-11671 [DTC]
+  Reason: 原衛星仰角 8.01° 過低；選擇距離最近的衛星 (距離 474.23 km)
+------------------------------
+✅ 模擬完成！總共發生 46 次事件。
