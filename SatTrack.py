@@ -55,7 +55,15 @@ for sat in tqdm(visible_satellites, desc="-> 計算詳細軌跡", unit=" 顆衛�
     # 這裡我們一次取得 仰角(elevation)、方位角(azimuth)、斜距(distance)
     elevations, azimuths, distances = difference.at(times_utc).altaz()
     
-    subpoints = sat.at(times_utc).subpoint()
+    # 取得衛星在地心座標系統 (ECEF) 的位置
+    geocentric = sat.at(times_utc)
+    # ITRF/ECEF 座標系統 (地心地固座標) - 使用 position 屬性
+    position = geocentric.position.km  # 直接取得 GCRS 座標 (接近 ECEF)
+    x_ecef = position[0]
+    y_ecef = position[1]
+    z_ecef = position[2]
+    
+    subpoints = geocentric.subpoint()
     latitudes = subpoints.latitude.degrees
     longitudes = subpoints.longitude.degrees
     heights = subpoints.elevation.km
@@ -71,7 +79,10 @@ for sat in tqdm(visible_satellites, desc="-> 計算詳細軌跡", unit=" 顆衛�
                 "distance_km": round(distances.km[i], 2), # distance_km (斜距)： 衛星離您有多遠？
                 "lat_subpoint": round(latitudes[i], 2),  # lat_subpoint (星下點緯度): 衛星飛在地球上哪個緯度的上空？
                 "lon_subpoint": round(longitudes[i], 2),  # lon_subpoint (星下點經度)：衛星飛在地球上哪個經度的上空？
-                "height_km": round(heights[i], 2) # height_km (衛星高度)：距離地表有多遠
+                "height_km": round(heights[i], 2), # height_km (衛星高度)：距離地表有多遠
+                "x_ecef_km": round(x_ecef[i], 2),  # X 地心座標 (ECEF)
+                "y_ecef_km": round(y_ecef[i], 2),  # Y 地心座標 (ECEF)
+                "z_ecef_km": round(z_ecef[i], 2)   # Z 地心座標 (ECEF)
             })
 
 # === 6. 顯示結果 ===
@@ -89,6 +100,9 @@ else:
     #           f"高度={entry['height_km']}km")
 
     print(f"\n✅ 共 {len(visible_log)} 筆可見衛星資料點（2小時內）")
+
+    # 按時間排序
+    visible_log.sort(key=lambda x: x['time'])
 
     if not os.path.exists(OUT_DIR):
         os.makedirs(OUT_DIR)
