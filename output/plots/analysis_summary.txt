@@ -1,0 +1,196 @@
+================================================================================
+Taiwan Satellite Observation Analysis Summary
+================================================================================
+
+### Analysis 1: Multi-Point Observation of Satellites ###
+
+Probability that a satellite is observed by multiple points: 98.86%
+Average observation points per satellite: 19.66
+Median observation points per satellite: 21
+Max observation points for a satellite: 21
+
+Distribution of observation points:
+  1 point(s): 350 occurrences (1.14%)
+  2 point(s): 122 occurrences (0.40%)
+  3 point(s): 168 occurrences (0.55%)
+  4 point(s): 119 occurrences (0.39%)
+  5 point(s): 208 occurrences (0.68%)
+  6 point(s): 275 occurrences (0.90%)
+  7 point(s): 197 occurrences (0.64%)
+  8 point(s): 178 occurrences (0.58%)
+  9 point(s): 201 occurrences (0.66%)
+  10 point(s): 116 occurrences (0.38%)
+  11 point(s): 135 occurrences (0.44%)
+  12 point(s): 217 occurrences (0.71%)
+  13 point(s): 208 occurrences (0.68%)
+  14 point(s): 204 occurrences (0.67%)
+  15 point(s): 214 occurrences (0.70%)
+  16 point(s): 260 occurrences (0.85%)
+  17 point(s): 104 occurrences (0.34%)
+  18 point(s): 194 occurrences (0.63%)
+  19 point(s): 131 occurrences (0.43%)
+  20 point(s): 346 occurrences (1.13%)
+  21 point(s): 26671 occurrences (87.11%)
+
+### Analysis 2: Multi-Satellite Observation from Each Point ###
+
+Probability that an observation point sees multiple satellites: 100.00%
+Average satellites per observation point: 238.82
+Median satellites per observation point: 229
+Max satellites at one point: 314
+
+Distribution of simultaneous satellites:
+  181 satellite(s): 1 occurrences (0.04%)
+  182 satellite(s): 2 occurrences (0.08%)
+  183 satellite(s): 1 occurrences (0.04%)
+  184 satellite(s): 2 occurrences (0.08%)
+  185 satellite(s): 2 occurrences (0.08%)
+  186 satellite(s): 3 occurrences (0.12%)
+  187 satellite(s): 3 occurrences (0.12%)
+  190 satellite(s): 1 occurrences (0.04%)
+  192 satellite(s): 6 occurrences (0.24%)
+  193 satellite(s): 4 occurrences (0.16%)
+  194 satellite(s): 8 occurrences (0.32%)
+  195 satellite(s): 5 occurrences (0.20%)
+  196 satellite(s): 16 occurrences (0.63%)
+  197 satellite(s): 12 occurrences (0.48%)
+  198 satellite(s): 16 occurrences (0.63%)
+  199 satellite(s): 16 occurrences (0.63%)
+  200 satellite(s): 18 occurrences (0.71%)
+  201 satellite(s): 32 occurrences (1.27%)
+  202 satellite(s): 27 occurrences (1.07%)
+  203 satellite(s): 26 occurrences (1.03%)
+  204 satellite(s): 25 occurrences (0.99%)
+  205 satellite(s): 43 occurrences (1.71%)
+  206 satellite(s): 55 occurrences (2.18%)
+  207 satellite(s): 48 occurrences (1.90%)
+  208 satellite(s): 45 occurrences (1.79%)
+  209 satellite(s): 56 occurrences (2.22%)
+  210 satellite(s): 46 occurrences (1.83%)
+  211 satellite(s): 39 occurrences (1.55%)
+  212 satellite(s): 45 occurrences (1.79%)
+  213 satellite(s): 41 occurrences (1.63%)
+  214 satellite(s): 41 occurrences (1.63%)
+  215 satellite(s): 30 occurrences (1.19%)
+  216 satellite(s): 27 occurrences (1.07%)
+  217 satellite(s): 44 occurrences (1.75%)
+  218 satellite(s): 66 occurrences (2.62%)
+  219 satellite(s): 48 occurrences (1.90%)
+  220 satellite(s): 55 occurrences (2.18%)
+  221 satellite(s): 43 occurrences (1.71%)
+  222 satellite(s): 40 occurrences (1.59%)
+  223 satellite(s): 38 occurrences (1.51%)
+  224 satellite(s): 26 occurrences (1.03%)
+  225 satellite(s): 23 occurrences (0.91%)
+  226 satellite(s): 38 occurrences (1.51%)
+  227 satellite(s): 39 occurrences (1.55%)
+  228 satellite(s): 34 occurrences (1.35%)
+  229 satellite(s): 41 occurrences (1.63%)
+  230 satellite(s): 31 occurrences (1.23%)
+  231 satellite(s): 42 occurrences (1.67%)
+  232 satellite(s): 40 occurrences (1.59%)
+  233 satellite(s): 22 occurrences (0.87%)
+  234 satellite(s): 14 occurrences (0.56%)
+  235 satellite(s): 20 occurrences (0.79%)
+  236 satellite(s): 26 occurrences (1.03%)
+  237 satellite(s): 21 occurrences (0.83%)
+  238 satellite(s): 37 occurrences (1.47%)
+  239 satellite(s): 30 occurrences (1.19%)
+  240 satellite(s): 26 occurrences (1.03%)
+  241 satellite(s): 24 occurrences (0.95%)
+  242 satellite(s): 30 occurrences (1.19%)
+  243 satellite(s): 28 occurrences (1.11%)
+  244 satellite(s): 10 occurrences (0.40%)
+  245 satellite(s): 15 occurrences (0.60%)
+  246 satellite(s): 16 occurrences (0.63%)
+  247 satellite(s): 18 occurrences (0.71%)
+  248 satellite(s): 10 occurrences (0.40%)
+  249 satellite(s): 7 occurrences (0.28%)
+  250 satellite(s): 20 occurrences (0.79%)
+  251 satellite(s): 10 occurrences (0.40%)
+  252 satellite(s): 6 occurrences (0.24%)
+  253 satellite(s): 3 occurrences (0.12%)
+  254 satellite(s): 6 occurrences (0.24%)
+  255 satellite(s): 8 occurrences (0.32%)
+  256 satellite(s): 9 occurrences (0.36%)
+  257 satellite(s): 8 occurrences (0.32%)
+  258 satellite(s): 6 occurrences (0.24%)
+  259 satellite(s): 14 occurrences (0.56%)
+  260 satellite(s): 17 occurrences (0.67%)
+  261 satellite(s): 4 occurrences (0.16%)
+  262 satellite(s): 6 occurrences (0.24%)
+  263 satellite(s): 6 occurrences (0.24%)
+  264 satellite(s): 11 occurrences (0.44%)
+  265 satellite(s): 6 occurrences (0.24%)
+  266 satellite(s): 6 occurrences (0.24%)
+  267 satellite(s): 6 occurrences (0.24%)
+  268 satellite(s): 4 occurrences (0.16%)
+  269 satellite(s): 3 occurrences (0.12%)
+  270 satellite(s): 3 occurrences (0.12%)
+  271 satellite(s): 12 occurrences (0.48%)
+  272 satellite(s): 7 occurrences (0.28%)
+  273 satellite(s): 9 occurrences (0.36%)
+  274 satellite(s): 10 occurrences (0.40%)
+  275 satellite(s): 12 occurrences (0.48%)
+  276 satellite(s): 9 occurrences (0.36%)
+  277 satellite(s): 12 occurrences (0.48%)
+  278 satellite(s): 13 occurrences (0.52%)
+  279 satellite(s): 22 occurrences (0.87%)
+  280 satellite(s): 39 occurrences (1.55%)
+  281 satellite(s): 30 occurrences (1.19%)
+  282 satellite(s): 31 occurrences (1.23%)
+  283 satellite(s): 30 occurrences (1.19%)
+  284 satellite(s): 16 occurrences (0.63%)
+  285 satellite(s): 19 occurrences (0.75%)
+  286 satellite(s): 31 occurrences (1.23%)
+  287 satellite(s): 26 occurrences (1.03%)
+  288 satellite(s): 26 occurrences (1.03%)
+  289 satellite(s): 34 occurrences (1.35%)
+  290 satellite(s): 27 occurrences (1.07%)
+  291 satellite(s): 23 occurrences (0.91%)
+  292 satellite(s): 20 occurrences (0.79%)
+  293 satellite(s): 12 occurrences (0.48%)
+  294 satellite(s): 16 occurrences (0.63%)
+  295 satellite(s): 12 occurrences (0.48%)
+  296 satellite(s): 11 occurrences (0.44%)
+  297 satellite(s): 7 occurrences (0.28%)
+  298 satellite(s): 9 occurrences (0.36%)
+  299 satellite(s): 7 occurrences (0.28%)
+  300 satellite(s): 13 occurrences (0.52%)
+  301 satellite(s): 8 occurrences (0.32%)
+  302 satellite(s): 14 occurrences (0.56%)
+  303 satellite(s): 7 occurrences (0.28%)
+  304 satellite(s): 10 occurrences (0.40%)
+  305 satellite(s): 11 occurrences (0.44%)
+  306 satellite(s): 5 occurrences (0.20%)
+  307 satellite(s): 4 occurrences (0.16%)
+  308 satellite(s): 4 occurrences (0.16%)
+  309 satellite(s): 1 occurrences (0.04%)
+  310 satellite(s): 1 occurrences (0.04%)
+  311 satellite(s): 2 occurrences (0.08%)
+  313 satellite(s): 1 occurrences (0.04%)
+  314 satellite(s): 1 occurrences (0.04%)
+
+### Per Location Statistics ###
+
+北海岸            : Max=310 satellites, Avg=239.47 satellites
+南投             : Max=305 satellites, Avg=239.13 satellites
+台中             : Max=303 satellites, Avg=239.22 satellites
+台北             : Max=311 satellites, Avg=239.32 satellites
+台南             : Max=306 satellites, Avg=238.31 satellites
+台東             : Max=307 satellites, Avg=238.08 satellites
+嘉義             : Max=308 satellites, Avg=238.78 satellites
+基隆             : Max=311 satellites, Avg=239.32 satellites
+宜蘭             : Max=313 satellites, Avg=239.12 satellites
+屏東             : Max=302 satellites, Avg=237.95 satellites
+彰化             : Max=303 satellites, Avg=239.20 satellites
+恆春半島           : Max=302 satellites, Avg=237.33 satellites
+新竹             : Max=304 satellites, Avg=239.47 satellites
+東北角            : Max=314 satellites, Avg=239.29 satellites
+桃園             : Max=308 satellites, Avg=239.51 satellites
+澎湖             : Max=304 satellites, Avg=238.77 satellites
+綠島蘭嶼           : Max=308 satellites, Avg=237.95 satellites
+花蓮             : Max=307 satellites, Avg=238.69 satellites
+苗栗             : Max=305 satellites, Avg=239.46 satellites
+雲林             : Max=304 satellites, Avg=238.88 satellites
+高雄             : Max=300 satellites, Avg=237.86 satellites
