@@ -18,7 +18,15 @@ hsinchu = wgs84.latlon(24.8, 120.97, 0)
 # === 3. 建立時間區間（未來 2 小時） ===
 ts = load.timescale()
 tz = pytz.timezone("Asia/Taipei")
-t_start = ts.now()  # 改用 skyfield 的
+
+# 使用 TLE 檔案中的最新 Epoch 作為模擬起始時間，以確保模擬準確
+# (如果 TLE 過期，使用現在時間會導致極大誤差)
+if stations:
+    t_start = max(sat.epoch for sat in stations)
+    print(f"ℹ️  使用 TLE 最新 Epoch 作為起始時間: {t_start.utc_strftime('%Y-%m-%d %H:%M:%S')} UTC")
+else:
+    t_start = ts.now()  # 改用 skyfield 的
+
 t_end = ts.from_datetime(t_start.utc_datetime() + timedelta(hours=2))
 start_time_dt = t_start.astimezone(tz) # 用於後續計算
 
