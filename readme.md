@@ -17,7 +17,7 @@ pip install -r requirements.txt
 # 1. generate satellite visibility CSV
 python3 SatTrack.py
 
-# 5. serve the workspace and open the viewer
+# 2. serve the workspace and open the viewer
 python3 -m http.server 8000
 # then open http://localhost:8000/index.html in your browser
 ```
